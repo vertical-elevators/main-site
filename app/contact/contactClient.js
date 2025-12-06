@@ -114,7 +114,7 @@ function ContactPage() {
             <h1 className='text-5xl md:text-6xl lg:text-7xl font-bold mb-6'>
               Get In <span className='text-[#4A8E94]'>Touch</span>
             </h1>
-            <p className='text-xl md:text-2xl text-[#91C5C8] max-w-3xl mx-auto leading-relaxed'>
+            <p className='text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto leading-relaxed'>
               Let&apos;s discuss the perfect elevator solution for your building. Request your free consultation today.
             </p>
           </motion.div>

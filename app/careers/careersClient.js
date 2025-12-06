@@ -16,15 +16,14 @@ function CareersPage() {
     phone: '',
     city: '',
     expectedSalary: '',
-    applyFor: '',
-    resume: null
+    applyFor: ''
   });
 
   useEffect(() => {
     if (showThankYou) {
       const timer = setTimeout(() => {
         setShowThankYou(false);
-      }, 5000);
+      }, 10000);
       return () => clearTimeout(timer);
     }
   }, [showThankYou]);
@@ -37,14 +36,6 @@ function CareersPage() {
     }));
   };
 
-  const handleFileChange = (e) => {
-    const file = e.target.files[0];
-    setFormData(prev => ({
-      ...prev,
-      resume: file
-    }));
-  };
-
   const resetForm = () => {
     setFormData({
       name: '',
@@ -52,47 +43,43 @@ function CareersPage() {
       phone: '',
       city: '',
       expectedSalary: '',
-      applyFor: '',
-      resume: null
+      applyFor: ''
     });
-    // Reset file input
-    const fileInput = document.getElementById('resume');
-    if (fileInput) fileInput.value = '';
   };
 
   const handleFormSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    const apiUrl = "https://www.digitalsolution360.in/api/career-apply"; // CHANGE THIS
-
-    const formDataToSend = new FormData();
-    formDataToSend.append("name", formData.name);
-    formDataToSend.append("email", formData.email);
-    formDataToSend.append("phone", formData.phone);
-    formDataToSend.append("city", formData.city);
-    formDataToSend.append("expectedSalary", formData.expectedSalary);
-    formDataToSend.append("applyFor", formData.applyFor);
-    formDataToSend.append("resume", formData.resume); // FILE
-
     try {
-      const response = await fetch(apiUrl, {
+      const response = await fetch('/api/submit-form', {
         method: "POST",
-        body: formDataToSend,
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          formType: 'careers',
+          name: formData.name,
+          email: formData.email,
+          phone: formData.phone,
+          city: formData.city,
+          expectedSalary: formData.expectedSalary,
+          applyFor: formData.applyFor
+        }),
       });
 
       const data = await response.json();
 
-      if (response.ok) {
-        alert("Application submitted successfully!");
+      if (response.ok && data.success) {
+        setShowThankYou(true);
         resetForm();
       } else {
-        alert("Error: " + data.message);
+        alert("Error: " + (data.error || 'Failed to submit application'));
       }
 
     } catch (error) {
       console.error(error);
-      alert("Something went wrong! Check console.");
+      alert("Failed to submit application. Please try again.");
     }
 
     setIsSubmitting(false);
@@ -140,7 +127,7 @@ function CareersPage() {
             <h1 className='text-5xl md:text-6xl lg:text-7xl font-bold mb-6'>
               Elevate Your <span className='text-[#4A8E94]'>Career</span>
             </h1>
-            <p className='text-xl md:text-2xl text-[#91C5C8] max-w-3xl mx-auto leading-relaxed'>
+            <p className='text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto leading-relaxed'>
               Join our team of elevator professionals dedicated to safety, innovation, and engineering excellence.
             </p>
           </motion.div>
@@ -497,7 +484,7 @@ function CareersPage() {
                     required
                     disabled={isSubmitting}
                     className='w-full px-4 py-3 bg-white rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#297074] focus:border-transparent transition-all disabled:bg-gray-100'
-                    placeholder='Enter expected salary (AED)'
+                    placeholder='Enter expected salary (INR)'
                   />
                 </div>
 
@@ -522,42 +509,28 @@ function CareersPage() {
                     <option value="Elevator Project Manager">Elevator Project Manager</option>
                     <option value="Elevator Design Engineer">Elevator Design Engineer</option>
                     <option value="Quality Control Inspector">Quality Control Inspector</option>
-                    <option value="Sales Engineer - Elevators">Sales Engineer - Elevators</option>
-                    <option value="Customer Service Coordinator">Customer Service Coordinator</option>
                   </select>
                 </div>
 
-              </div>
-
-              {/* Resume Upload */}
-              <div className='mb-6'>
-                <label htmlFor='resume' className='block text-sm font-semibold text-gray-700 mb-2'>
-                  Upload Resume (PDF, DOC, DOCX) *
-                </label>
-                <input
-                  type='file'
-                  id='resume'
-                  name='resume'
-                  onChange={handleFileChange}
-                  accept='.pdf,.doc,.docx'
-                  required
-                  disabled={isSubmitting}
-                  className='w-full px-4 py-3 bg-white rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#297074] focus:border-transparent transition-all disabled:bg-gray-100'
-                />
-                {formData.resume && (
-                  <p className='mt-2 text-sm text-gray-600'>
-                    Selected: {formData.resume.name}
-                  </p>
-                )}
               </div>
 
               {/* Submit Button */}
               <button
                 type='submit'
                 disabled={isSubmitting}
-                className='w-full bg-[#297074] text-white py-4 px-8 rounded-lg font-semibold hover:bg-[#075056] transition-all duration-300 hover:shadow-lg hover:-translate-y-1 disabled:bg-gray-400 disabled:cursor-not-allowed disabled:transform-none'
+                className='w-full bg-[#297074] text-white py-4 px-8 rounded-lg font-semibold hover:bg-[#075056] transition-all duration-300 hover:shadow-lg hover:-translate-y-1 disabled:opacity-70 disabled:cursor-not-allowed disabled:transform-none'
               >
-                {isSubmitting ? 'Submitting...' : 'Submit Application'}
+                {isSubmitting ? (
+                  <span className="flex items-center justify-center gap-2">
+                    <svg className="animate-spin h-5 w-5" viewBox="0 0 24 24">
+                      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" fill="none"></circle>
+                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                    Submitting...
+                  </span>
+                ) : (
+                  'Submit Application'
+                )}
               </button>
 
             </form>
@@ -597,18 +570,24 @@ function CareersPage() {
 
               <h3 className='text-3xl font-bold text-gray-900 mb-4'>Thank You!</h3>
               <p className='text-lg text-gray-600 mb-6'>
-                Your application has been submitted successfully. We&apos;ll review it and get back to you soon.
+                Your application has been submitted successfully!
               </p>
 
               <div className='bg-[#F0F4F5] rounded-lg p-4 mb-6'>
-                <p className='text-sm text-gray-600 mb-2'>Our HR team will contact you at:</p>
-                <a href='mailto:careers@verticalelevators.in' className='text-[#297074] font-semibold hover:underline'>
-                  careers@verticalelevators.in
+                <p className='text-sm font-semibold text-gray-700 mb-2'>⚠️ Important - Final Step:</p>
+                <p className='text-sm text-gray-600 mb-3'>
+                  Please email your resume to complete your application:
+                </p>
+                <a href='mailto:info@verticalelevators.in' className='text-[#297074] font-semibold hover:underline text-base'>
+                  info@verticalelevators.in
                 </a>
+                <p className='text-xs text-gray-500 mt-2'>
+                  Include your name and position in the subject line
+                </p>
               </div>
 
               <p className='text-sm text-gray-500'>
-                This message will close automatically in 5 seconds
+                This message will close automatically in 10 seconds
               </p>
             </motion.div>
           </motion.div>

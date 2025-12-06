@@ -6,7 +6,8 @@ const SHEET_NAMES = {
   'cta': 'CTA Form',
   'contact': 'Contact Page',
   'product': 'Product Page',
-  'accessory': 'Accessories Page'
+  'accessory': 'Accessories Page',
+  'careers': 'Careers'
 };
 
 // Initialize Google Sheets API
@@ -25,6 +26,7 @@ async function getGoogleSheetsClient() {
 
 export async function POST(request) {
   try {
+    // Handle JSON request
     const body = await request.json();
     const { formType, ...formData } = body;
 
@@ -59,44 +61,56 @@ export async function POST(request) {
       case 'product':
         rowData = [
           timestamp,
-          formData.name || '',
-          formData.email || '',
-          formData.phone || '',
-          formData.productName || '',
-          formData.message || ''
+          formData.name || 'No Name Provided',
+          formData.email || 'No Email Provided',
+          formData.phone || 'No Phone Provided',
+          formData.productName || 'No Product Name Provided',
+          formData.message || 'No Message Provided'
         ];
         break;
 
       case 'accessory':
         rowData = [
           timestamp,
-          formData.name || '',
-          formData.email || '',
-          formData.phone || '',
-          formData.accessoryName || '',
-          formData.message || ''
+          formData.name || 'No Name Provided',
+          formData.email || 'No Email Provided',
+          formData.phone || 'No Phone Provided',
+          formData.accessoryName || 'No Accessory Name Provided',
+          formData.message || 'No Message Provided'
         ];
         break;
 
       case 'contact':
         rowData = [
           timestamp,
-          formData.name || '',
-          formData.email || '',
-          formData.phone || '',
-          formData.subject || '',
-          formData.message || ''
+          formData.name || 'No Name Provided',
+          formData.email || 'No Email Provided',
+          formData.phone || 'No Phone Provided',
+          formData.subject || 'No Subject Provided',
+          formData.message || 'No Message Provided'
         ];
         break;
 
       case 'cta':
         rowData = [
           timestamp,
-          formData.name || '',
-          formData.email || '',
-          formData.phone || '',
-          formData.service || '',
-          formData.message || ''
+          formData.name || 'No Name Provided',
+          formData.email || 'No Email Provided',
+          formData.phone || 'No Phone Provided',
+          formData.service || 'No Service Selected',
+          formData.message || 'No Message Provided'
+        ];
+        break;
+
+      case 'careers':
+        rowData = [
+          timestamp,
+          formData.name || 'No Name Provided',
+          formData.email || 'No Email Provided',
+          formData.phone || 'No Phone Provided',
+          formData.city || 'No City Provided',
+          formData.expectedSalary || 'No Expected Salary Provided',
+          formData.applyFor || 'No Position Applied For'
         ];
         break;
 
@@ -130,6 +144,9 @@ export async function POST(request) {
             break;
           case 'cta':
             headers = ['Timestamp', 'Name', 'Email', 'Phone', 'Service', 'Message'];
+            break;
+          case 'careers':
+            headers = ['Timestamp', 'Name', 'Email', 'Phone', 'City', 'Expected Salary', 'Apply For'];
             break;
         }
 

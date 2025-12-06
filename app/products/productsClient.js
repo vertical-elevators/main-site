@@ -67,7 +67,7 @@ function ProductsPage() {
   return (
     <BgLayout>
       {/* Hero Section */}
-      <section className='relative h-[50vh] mt-15 flex items-center justify-center overflow-hidden'>
+      <section className='relative h-[50vh] mt-19 flex items-center justify-center overflow-hidden'>
         <div className='absolute inset-0'>
           <img
             src="/products/hero-image.webp"
