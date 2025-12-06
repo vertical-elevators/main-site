@@ -97,7 +97,7 @@ export function SafetyCertifications() {
                   </div>
                   <p className="text-white/90 text-lg mb-3">Officially certified by Delhi Development Authority</p>
                   <p className="text-white/80 text-sm max-w-2xl">
-                    Our elevators meet the stringent standards set by DDA, ensuring compliance with Delhi's building regulations and safety requirements. This certification demonstrates our commitment to quality and safety in elevator installations across Delhi-NCR.
+                    Our elevators meet the stringent standards set by DDA, ensuring compliance with Delhi&apos;s building regulations and safety requirements. This certification demonstrates our commitment to quality and safety in elevator installations across Delhi-NCR.
                   </p>
                 </div>
                 {/* <div className="flex-shrink-0">

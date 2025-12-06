@@ -242,7 +242,7 @@ function AboutPage() {
               </div>
               <h3 className='text-2xl font-bold text-gray-900 mb-4'>Our Vision</h3>
               <p className='text-gray-600 leading-relaxed'>
-                To be the region's most trusted elevator company, recognized for setting new benchmarks in safety, innovation, and customer service. We envision buildings where vertical transportation is seamless, safe, and sustainable, powered by cutting-edge technology and expert engineering.
+                To be the region&apos;s most trusted elevator company, recognized for setting new benchmarks in safety, innovation, and customer service. We envision buildings where vertical transportation is seamless, safe, and sustainable, powered by cutting-edge technology and expert engineering.
               </p>
             </motion.div>
           </div>

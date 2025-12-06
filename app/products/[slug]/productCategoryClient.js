@@ -615,7 +615,7 @@ function ProductCategoryClient({ category, products }) {
               </div>
               <h3 className='text-2xl font-bold text-gray-900 mb-2'>Thank You!</h3>
               <p className='text-gray-600 mb-4'>
-                Your quote request has been submitted successfully. We'll get back to you shortly.
+                Your quote request has been submitted successfully. We&apos;ll get back to you shortly.
               </p>
               <p className='text-sm text-gray-500'>Redirecting to home page in 5 seconds...</p>
             </motion.div>

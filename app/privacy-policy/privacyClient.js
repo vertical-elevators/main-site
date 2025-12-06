@@ -190,7 +190,7 @@ function PrivacyPage() {
             <div className="p-6 bg-white rounded-2xl shadow">
               <h2 className="text-2xl font-bold mb-4">8. Children's Privacy</h2>
               <p>
-                Our Site is not intended for children under 13. We do not knowingly collect their data. If we learn we have, we'll delete it immediately.
+                Our Site is not intended for children under 13. We do not knowingly collect their data. If we learn we have, we&apos;ll delete it immediately.
               </p>
             </div>
           </motion.div>
@@ -210,7 +210,7 @@ function PrivacyPage() {
             <div className="p-6 bg-white rounded-2xl shadow">
               <h2 className="text-2xl font-bold mb-4">10. Updates to This Policy</h2>
               <p>
-                We may update this Policy from time to time. The Effective Date at the top will reflect the latest revision. If we make significant changes, we'll notify you (e.g., via Site notice or email). Please review periodically.
+                We may update this Policy from time to time. The Effective Date at the top will reflect the latest revision. If we make significant changes, we&apos;ll notify you (e.g., via Site notice or email). Please review periodically.
               </p>
             </div>
           </motion.div>

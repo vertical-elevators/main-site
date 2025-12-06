@@ -516,7 +516,7 @@ function AccessoryCategoryClient({ category, accessories }) {
                             </div>
                             <h2 className='text-2xl font-bold text-gray-900 mb-2'>Thank You!</h2>
                             <p className='text-gray-600 mb-4'>
-                                Your quote request has been submitted successfully. We'll get back to you soon.
+                                Your quote request has been submitted successfully. We&apos;ll get back to you soon.
                             </p>
                             <p className='text-sm text-gray-500'>
                                 Redirecting to home page in 5 seconds...
