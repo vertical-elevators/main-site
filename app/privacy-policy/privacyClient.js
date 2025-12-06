@@ -188,7 +188,7 @@ function PrivacyPage() {
           {/** Section 8 */}
           <motion.div initial="hidden" animate="visible" variants={fadeUp}>
             <div className="p-6 bg-white rounded-2xl shadow">
-              <h2 className="text-2xl font-bold mb-4">8. Children's Privacy</h2>
+              <h2 className="text-2xl font-bold mb-4">8. Children&apos;s Privacy</h2>
               <p>
                 Our Site is not intended for children under 13. We do not knowingly collect their data. If we learn we have, we&apos;ll delete it immediately.
               </p>
@@ -200,7 +200,7 @@ function PrivacyPage() {
             <div className="p-6 bg-white rounded-2xl shadow">
               <h2 className="text-2xl font-bold mb-4">9. Third-Party Links</h2>
               <p>
-                Our Site may contain links to third-party websites. We're not responsible for their privacy policies or content. Please review their policies before using those sites.
+                Our Site may contain links to third-party websites. We&apos;re not responsible for their privacy policies or content. Please review their policies before using those sites.
               </p>
             </div>
           </motion.div>
