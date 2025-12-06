@@ -1,0 +1,300 @@
+[
+    {
+        "slug": "geared-motor",
+        "model": "GM Series",
+        "category": "geared-motor",
+        "type": "Motor",
+        "tagline": "Wide selection to suit different applications",
+        "description": "Premium elevator motors from leading manufacturers",
+        "longDescription": "Verticales has been supplying Elevator motors to various Industries and for diverse applications. Our team of qualified & experienced Engineers & Technicians studies your requirement & shall suggest suitable motors for specific applications.",
+        "images": [
+            "/accessories/1.webp",
+            "/accessories/2.webp",
+            "/accessories/3.webp"
+        ],
+        "specifications": {
+            "Brands": "SHARP, Bharat Bijlee, Montanari Giulio, TORINDRIVE",
+            "Application": "Various Industries",
+            "Support": "Qualified Engineers & Technicians",
+            "Customization": "Application-specific recommendations"
+        },
+        "advantages": [
+            "Wide selection of motors for different applications",
+            "Expert engineering support for requirement analysis",
+            "Premium brands with proven reliability",
+            "Custom solutions for specific needs"
+        ]
+    },
+    {
+        "slug": "gearless-motor",
+        "model": "GLM Series",
+        "category": "gearless-motor",
+        "type": "Motor",
+        "tagline": "Energy saving up to 30%",
+        "description": "New-generation gearless permanent magnet synchronous motor",
+        "longDescription": "New-generation gearless machine for elevators are powered by a permanent magnet synchronous motor. Compact modular designs, light weight and low operating noise levels make it especially suitable for machine room-less applications. Real saving in energy consumption (up to 30%), and in space and routine maintenance requirements, contribute to a significant reduction in cost of ownership.",
+        "images": [
+            "/accessories/gearless-motor/glm-1.webp",
+            "/accessories/gearless-motor/glm-2.webp"
+        ],
+        "specifications": {
+            "Motor Type": "Permanent Magnet Synchronous",
+            "Energy Saving": "Up to 30%",
+            "Noise Level": "Low",
+            "Protection": "IP55",
+            "Installation": "Minimum space required"
+        },
+        "advantages": [
+            "Suitable for elevators with or without machine room",
+            "Energy saving up to 30%",
+            "Low noise operation",
+            "No oil spillage problems",
+            "Key components are imported",
+            "Outstanding torque & cogging characteristics",
+            "Compact design facilitates easy installation"
+        ]
+    },
+    {
+        "slug": "vvvf-drive",
+        "model": "VVVF Series",
+        "category": "vvvf-drive",
+        "type": "Drive System",
+        "tagline": "Integrated drive and controller for superior performance",
+        "description": "Variable Voltage Variable Frequency drives from premium brands",
+        "longDescription": "While designing the elevator integrated drive and controller, a variety of factors, including elevators' safety and reliability, inherent characteristics of elevator operation, and potential energy load characteristic of elevators, are taken into consideration. In addition, the elevator integrated drive and controller offers improved performance, usage convenience, and economical efficiency, and it also features compact structure, small size, few wire connection and high reliability.",
+        "images": [
+            "/accessories/vvvf/vvvf-1.webp",
+            "/accessories/vvvf/vvvf-2.webp",
+            "/accessories/vvvf/vvvf-3.webp"
+        ],
+        "specifications": {
+            "Brands": "Monarch, FUJI ELECTRIC, Philbrick, ADCO CONTROLS",
+            "Structure": "Compact, small size",
+            "Connection": "Few wire connections",
+            "Reliability": "High"
+        },
+        "advantages": [
+            "Enhanced safety and reliability",
+            "Improved performance and efficiency",
+            "Usage convenience",
+            "Economical operation",
+            "Compact structure with small size",
+            "Few wire connections",
+            "High reliability"
+        ]
+    },
+    {
+        "slug": "control-panel",
+        "model": "CP Series",
+        "category": "control-panel",
+        "type": "Control System",
+        "tagline": "Advanced integrated drive and controller",
+        "description": "High-performance elevator control panels with dual processor",
+        "longDescription": "The elevator integrated drive and controller is designed with closed loop vector controller for higher performance. Features dual 32-bit embedded microprocessor and is suitable for both synchronous and asynchronous motors.",
+        "images": [
+            "/accessories/control-panel/cp-1.webp",
+            "/accessories/control-panel/cp-2.webp"
+        ],
+        "specifications": {
+            "Controller": "Closed loop vector",
+            "Processor": "Dual 32-bit embedded microprocessor",
+            "Motor Compatibility": "Synchronous and asynchronous",
+            "Encoder": "Incremental encoder for synchronous motor",
+            "Applications": "Residential, goods, car, ramp elevators"
+        },
+        "advantages": [
+            "Closed loop vector controller for higher performance",
+            "Zero-speed torque compensation without load weighing device",
+            "Dynamic PWM carrier modulation for reduced motor noise",
+            "Suitable for both synchronous and asynchronous motors",
+            "Dual 32-bit embedded microprocessor",
+            "Incremental encoder for precise control",
+            "Applicable for all lift types"
+        ]
+    },
+    {
+        "slug": "designer-cabins-vdc-3210",
+        "model": "VDC 3210",
+        "category": "designer-cabins",
+        "type": "Cabin Design",
+        "tagline": "Plastic Laminate Wood Finish",
+        "description": "Premium wood finish cabin with LED ceiling",
+        "longDescription": "Designer cabin featuring plastic laminate wood finish walls, PVC wood finish flooring, and LED ceiling with SS mirror finish for a sophisticated appearance.",
+        "images": [
+            "/accessories/designer-cabins/vdc-3210.webp"
+        ],
+        "specifications": {
+            "Wall Finish": "Plastic Laminate Wood Finish",
+            "Floor Finish": "PVC Wood Finish",
+            "Ceiling": "LED, SS Mirror Finish",
+            "Model": "VDC 3210"
+        },
+        "advantages": [
+            "Premium wood aesthetics",
+            "Durable plastic laminate",
+            "Energy-efficient LED lighting",
+            "Easy maintenance flooring"
+        ]
+    },
+    {
+        "slug": "designer-cabins-vdc-3220",
+        "model": "VDC 3220",
+        "category": "designer-cabins",
+        "type": "Cabin Design",
+        "tagline": "Solid Colour with Patterned Floor",
+        "description": "Modern solid color cabin with tube lighting",
+        "longDescription": "Designer cabin with plastic laminate solid color walls, patterned PVC flooring, and tube light ceiling with large diffuser for uniform illumination.",
+        "images": [
+            "/accessories/designer-cabins/vdc-3220.webp"
+        ],
+        "specifications": {
+            "Wall Finish": "Plastic Laminate Solid Colour",
+            "Floor Finish": "Patterned PVC",
+            "Ceiling": "Tube Light, Large Diffuser",
+            "Model": "VDC 3220"
+        },
+        "advantages": [
+            "Clean modern look",
+            "Patterned floor design",
+            "Uniform lighting",
+            "Cost-effective solution"
+        ]
+    },
+    {
+        "slug": "designer-cabins-vdc-3100",
+        "model": "VDC 3100",
+        "category": "designer-cabins",
+        "type": "Cabin Design",
+        "tagline": "Metallic Yellow Painted",
+        "description": "Vibrant metallic finish cabin",
+        "longDescription": "Bold designer cabin with painted metallic yellow walls, PVC smoke gray flooring, and CFL ceiling with white painted and black round diffuser.",
+        "images": [
+            "/accessories/designer-cabins/vdc-3100.webp"
+        ],
+        "specifications": {
+            "Wall Finish": "Painted Metallic Yellow",
+            "Floor Finish": "PVC Smoke Gray",
+            "Ceiling": "CFL, White Painted with Black Round Diffuser",
+            "Model": "VDC 3100"
+        },
+        "advantages": [
+            "Distinctive metallic finish",
+            "Eye-catching design",
+            "Energy-efficient CFL",
+            "Stylish diffuser"
+        ]
+    },
+    {
+        "slug": "designer-cabins-vdc-3160",
+        "model": "VDC 3160",
+        "category": "designer-cabins",
+        "type": "Cabin Design",
+        "tagline": "Silver Mirror Polish SS",
+        "description": "Luxury mirror polish stainless steel cabin",
+        "longDescription": "Premium designer cabin featuring silver mirror polish stainless steel walls, jet black granite flooring, and LED ceiling with silver mirror polish SS for ultimate luxury.",
+        "images": [
+            "/accessories/designer-cabins/vdc-3160.webp"
+        ],
+        "specifications": {
+            "Wall Finish": "Silver Mirror Polish SS",
+            "Floor Finish": "Jet Black Granite",
+            "Ceiling": "LED, Silver Mirror Polish Stainless Steel",
+            "Model": "VDC 3160"
+        },
+        "advantages": [
+            "Luxurious mirror finish",
+            "Premium granite flooring",
+            "High-end appearance",
+            "Easy to clean surfaces"
+        ]
+    },
+    {
+        "slug": "designer-cabins-vdc-3200",
+        "model": "VDC 3200",
+        "category": "designer-cabins",
+        "type": "Cabin Design",
+        "tagline": "Transparent Etched Laminated Glass",
+        "description": "Contemporary glass cabin with gold accents",
+        "longDescription": "Ultra-modern designer cabin with transparent etched laminated glass walls, brown stone flooring, and LED ceiling with gold mirror polish stainless steel for a sophisticated look.",
+        "images": [
+            "/accessories/designer-cabins/vdc-3200.webp"
+        ],
+        "specifications": {
+            "Wall Finish": "Transparent Etched Laminated Glass",
+            "Floor Finish": "Brown Stone",
+            "Ceiling": "LED, Gold Mirror Polish, Stainless Steel",
+            "Model": "VDC 3200"
+        },
+        "advantages": [
+            "Transparent glass walls",
+            "Gold luxury accents",
+            "Contemporary design",
+            "Premium stone flooring"
+        ]
+    },
+    {
+        "slug": "car-operating-panel",
+        "model": "COP Series",
+        "category": "car-operating-panel",
+        "type": "Operating Panel",
+        "tagline": "Wide selection of display options",
+        "description": "Complete range of car operating panels with various display technologies",
+        "longDescription": "Choose from our comprehensive range of car operating panels including 7 Segment Display, Dot Matrix Display, LCD Display, Digital LCD Display, and Handrail COP options. Please visit our showroom for the latest and wide selection of designs.",
+        "images": [
+            "/accessories/cop/7-segment.webp",
+            "/accessories/cop/dot-matrix.webp",
+            "/accessories/cop/lcd.webp",
+            "/accessories/cop/digital-lcd.webp",
+            "/accessories/cop/handrail.webp"
+        ],
+        "specifications": {
+            "Display Types": "7 Segment, Dot Matrix, LCD, Digital LCD",
+            "Special Options": "Handrail COP",
+            "Customization": "Available",
+            "Showroom": "Visit for latest designs"
+        },
+        "advantages": [
+            "Multiple display technology options",
+            "7 Segment for classic applications",
+            "Dot Matrix for enhanced visibility",
+            "LCD for modern aesthetics",
+            "Digital LCD for premium installations",
+            "Handrail COP for accessibility",
+            "Wide design selection"
+        ]
+    },
+    {
+        "slug": "landing-operating-panel",
+        "model": "LOP Series",
+        "category": "landing-operating-panel",
+        "type": "Operating Panel",
+        "tagline": "Complete landing panel and door solutions",
+        "description": "Comprehensive range of landing panels and door systems",
+        "longDescription": "Complete selection of landing operating panels including Hall Display, Touch LOP, and Push Button LOP. Door options include Manual Collapsible, Manual Imperforated, Manual Wooden Swing, Auto Telescopic, Auto Glass, and Auto Stainless Steel doors.",
+        "images": [
+            "/accessories/lop/hall-display.webp",
+            "/accessories/lop/touch-lop.webp",
+            "/accessories/lop/push-button.webp",
+            "/accessories/lop/manual-collapsible.webp",
+            "/accessories/lop/auto-telescopic.webp",
+            "/accessories/lop/auto-glass.webp",
+            "/accessories/lop/auto-ss.webp"
+        ],
+        "specifications": {
+            "Panel Types": "Hall Display, Touch LOP, Push Button LOP",
+            "Manual Doors": "Collapsible, Imperforated, Wooden Swing",
+            "Auto Doors": "Telescopic, Glass, Stainless Steel",
+            "Customization": "Available"
+        },
+        "advantages": [
+            "Hall Display for basic installations",
+            "Touch LOP for modern buildings",
+            "Push Button LOP for reliability",
+            "Manual door options for cost efficiency",
+            "Auto telescopic for smooth operation",
+            "Auto glass doors for aesthetics",
+            "Auto SS doors for durability",
+            "Complete door system integration"
+        ]
+    }
+]

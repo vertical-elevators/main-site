@@ -1,0 +1,100 @@
+[
+    {
+        "id": 1,
+        "title": "Geared Motor (GM)",
+        "slug": "geared-motor",
+        "description": "Wide selection of elevator motors to suit different applications with qualified engineering support",
+        "image": "/accessories/1.webp",
+        "icon": "IconEngine",
+        "features": [
+            "Wide selection for diverse applications",
+            "Qualified engineering support",
+            "Suitable for various industries",
+            "Custom solution recommendations"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Gearless Motor (GLM)",
+        "slug": "gearless-motor",
+        "description": "New-generation permanent magnet synchronous motors with energy savings up to 30%",
+        "image": "/accessories/1.webp",
+        "icon": "IconEngine",
+        "features": [
+            "Energy saving up to 30%",
+            "Low noise operation",
+            "No oil spillage problems",
+            "Compact modular design"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "VVVF Drive",
+        "slug": "vvvf-drive",
+        "description": "Variable Voltage Variable Frequency drives with integrated controllers for superior performance",
+        "image": "/accessories/1.webp",
+        "icon": "IconWaveSine",
+        "features": [
+            "Closed loop vector control",
+            "Dynamic PWM modulation",
+            "Dual 32-bit processor",
+            "Suitable for all motor types"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Control Panel (CP)",
+        "slug": "control-panel",
+        "description": "Advanced elevator integrated drive and controller with high reliability and compact design",
+        "image": "/accessories/1.webp",
+        "icon": "IconDeviceDesktop",
+        "features": [
+            "Zero-speed torque compensation",
+            "Reduced motor noise",
+            "Dual microprocessor",
+            "Applicable for all lift types"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Designer Cabins (DC)",
+        "slug": "designer-cabins",
+        "description": "Premium cabin designs with various finish options including laminates, woods, and stainless steel",
+        "image": "/accessories/1.webp",
+        "icon": "IconBox",
+        "features": [
+            "Plastic laminates & woods",
+            "Solid colors & patterns",
+            "Powder coats & SS finishes",
+            "12+ design variations"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Car Operating Panel (COP)",
+        "slug": "car-operating-panel",
+        "description": "Wide selection of COP designs from 7-segment displays to digital LCD and handrail panels",
+        "image": "/accessories/1.webp",
+        "icon": "IconDeviceTablet",
+        "features": [
+            "7 Segment Display",
+            "Dot Matrix Display",
+            "LCD & Digital LCD",
+            "Handrail COP options"
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Landing Operating Panel (LOP)",
+        "slug": "landing-operating-panel",
+        "description": "Complete range of landing panels and door systems for all elevator applications",
+        "image": "/accessories/1.webp",
+        "icon": "IconDoor",
+        "features": [
+            "Hall & Touch displays",
+            "Push button panels",
+            "Manual & auto doors",
+            "Glass & SS options"
+        ]
+    }
+]

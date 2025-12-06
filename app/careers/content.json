@@ -1,0 +1,40 @@
+{
+    "jobs": [
+        {
+            "id": 1,
+            "title": "Elevator Installation Technician",
+            "location": "Delhi",
+            "description": "Join our installation team to work on residential and commercial elevator projects. Experience with hydraulic and traction systems preferred."
+        },
+        {
+            "id": 2,
+            "title": "Elevator Maintenance Engineer",
+            "location": "Delhi",
+            "description": "Looking for certified engineers to perform preventive maintenance, repairs, and emergency services on elevator systems."
+        },
+        {
+            "id": 3,
+            "title": "Elevator Service Technician",
+            "location": "Delhi",
+            "description": "Provide maintenance and repair services for passenger, freight, and residential elevators. 24/7 emergency response capability required."
+        },
+        {
+            "id": 4,
+            "title": "Elevator Project Manager",
+            "location": "Delhi",
+            "description": "Manage elevator installation projects from planning to completion, coordinating with clients, contractors, and technical teams."
+        },
+        {
+            "id": 5,
+            "title": "Elevator Design Engineer",
+            "location": "Delhi",
+            "description": "Design custom elevator solutions for residential and commercial buildings. Experience with CAD and elevator control systems required."
+        },
+        {
+            "id": 6,
+            "title": "Quality Control Inspector",
+            "location": "Delhi",
+            "description": "Ensure all elevator installations meet safety standards and regulations. Conduct inspections and prepare compliance documentation."
+        }
+    ]
+}
