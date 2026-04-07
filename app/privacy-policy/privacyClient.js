@@ -230,7 +230,7 @@ function PrivacyPage() {
                   <span className="font-semibold">Email:</span> info@verticalelevators.in
                 </li>
                 <li>
-                  <span className="font-semibold">Phone:</span> +91 74196 36357
+                  <span className="font-semibold">Phone:</span> +91 99909 93646
                 </li>
                 <li>
                   <span className="font-semibold">Address:</span> G-54, Ground Floor, Pushkar Enclave, Paschim Vihar, New Delhi - 110063

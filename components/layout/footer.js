@@ -17,7 +17,7 @@ function Footer() {
         {/* WhatsApp Floating Chat Button */}
         <div className="hidden md:block fixed bottom-4 right-4 z-100">
           <button
-            onClick={() => window.open("https://wa.me/917419636357", "_blank")}
+            onClick={() => window.open("https://wa.me/919990993646", "_blank")}
             className="bg-green-500 p-3 rounded-full shadow-lg animate-bounce"
           >
             <FaWhatsapp size={40} />
@@ -139,8 +139,8 @@ function Footer() {
               </li>
               <li className='flex items-center gap-3'>
                 <FaPhoneAlt size={20} className='text-[#4A8E94] flex-shrink-0' />
-                <a href="tel:+917419636357" className='text-gray-400 hover:text-white transition-colors'>
-                  +91 74196 36357
+                <a href="tel:+919990993646" className='text-gray-400 hover:text-white transition-colors'>
+                  +91 99909 93646
                 </a>
               </li>
               <li className='flex items-center gap-3'>

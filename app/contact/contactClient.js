@@ -242,8 +242,8 @@ function ContactPage() {
                 <div className='mt-8 text-center pt-8 border-t border-gray-200'>
                   <p className='text-gray-600'>
                     Need immediate assistance? Call our 24/7 emergency line at{' '}
-                    <a href='tel:+917419636357' className='text-[#297074] font-semibold hover:underline'>
-                      +91 74196 36357
+                    <a href='tel:+919990993646' className='text-[#297074] font-semibold hover:underline'>
+                      +91 99909 93646
                     </a>
                   </p>
                 </div>
@@ -312,7 +312,8 @@ function ContactPage() {
                     <IconMapPin size={24} className='text-[#297074] flex-shrink-0' />
                     <div>
                       <p className='font-semibold text-gray-900'>Address</p>
-                      <p className='text-gray-600'>G-54, Ground Floor, Pushkar Enclave, Paschim Vihar, New Delhi - 110063</p>
+                      <p className='text-gray-600'><span className='font-semibold text-[#297074]'>Delhi Office:</span> G-54, Ground Floor, Pushkar Enclave, Paschim Vihar, New Delhi - 110063</p>
+                      <p className='text-gray-600'><span className='font-semibold text-[#297074]'>Sonepat Office:</span> SCO No. 55,56, Rishika Galleria, Sector-8, Sonepat, Haryana, 131001</p>
                     </div>
                   </div>
 
@@ -320,8 +321,14 @@ function ContactPage() {
                     <IconPhone size={24} className='text-[#297074] flex-shrink-0' />
                     <div>
                       <p className='font-semibold text-gray-900'>Phone</p>
-                      <a href='tel:+917419636357' className='text-[#297074] hover:underline'>
-                        +91 74196 36357
+                      <a href='tel:+919990993646' className='text-[#297074] hover:underline'>
+                        +91 99909 93646
+                      </a>
+                      <a href='tel:+917859912361' className='text-[#297074] hover:underline block mt-1'>
+                        Ankit Chaurasia: +91 78599 12361
+                      </a>
+                      <a href='tel:+918448707855' className='text-[#297074] hover:underline block mt-1'>
+                        Mayank Vijayran: +91 84487 07855
                       </a>
                     </div>
                   </div>
@@ -393,8 +400,8 @@ function ContactPage() {
 
               <div className='bg-[#F0F4F5] rounded-lg p-4'>
                 <p className='text-sm text-gray-600 mb-2'>Questions in the meantime?</p>
-                <a href='tel:+917419636357' className='text-[#297074] font-semibold hover:underline text-lg'>
-                  Call us: +91 74196 36357
+                <a href='tel:+919990993646' className='text-[#297074] font-semibold hover:underline text-lg'>
+                  Call us: +91 99909 93646
                 </a>
               </div>
             </motion.div>

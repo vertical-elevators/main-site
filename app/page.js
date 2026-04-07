@@ -27,7 +27,7 @@ const Faqs = dynamic(() => import("@/components/sections/faqs"), {
 
 export const metadata = {
   title: 'Vertical Elevators - Premium Elevator Solutions',
-  description: 'Vertical Elevators offers professional elevator installation, maintenance, modernization, and repair services for residential and commercial buildings. Expert engineering, reliable performance, unmatched safety. Call +91 74196 36357',
+  description: 'Vertical Elevators offers professional elevator installation, maintenance, modernization, and repair services for residential and commercial buildings. Expert engineering, reliable performance, unmatched safety. Call +91 99909 93646',
   keywords: 'elevator installation, lift maintenance, elevator modernization, residential elevators, commercial elevators, home lifts, passenger elevators, freight elevators, elevator repair, elevator service, Vertical Elevators, Dubai elevators',
   openGraph: {
     title: 'Vertical Elevators - Premium Elevator Installation & Maintenance Services',

@@ -312,8 +312,8 @@ function Header() {
                 </div>
 
                 <div className='flex flex-row items-center'>
-                    <Link href="tel:+917419636357" className='text-lg hover:text-xl font-semibold text-[#297074] transition-all duration-200'>
-                        +91 74196 36357
+                    <Link href="tel:+919990993646" className='text-lg hover:text-xl font-semibold text-[#297074] transition-all duration-200'>
+                        +91 99909 93646
                     </Link>
 
                     <button
@@ -411,8 +411,8 @@ function Header() {
                                 </ul>
 
                                 <div className='flex flex-col gap-3 mt-6'>
-                                    <Link href="tel:+917419636357" className='text-center border border-gray-300 rounded-md px-4 py-3 text-lg'>
-                                        +91 74196 36357
+                                    <Link href="tel:+919990993646" className='text-center border border-gray-300 rounded-md px-4 py-3 text-lg'>
+                                        +91 99909 93646
                                     </Link>
 
                                     <button

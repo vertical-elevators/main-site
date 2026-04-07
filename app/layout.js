@@ -117,7 +117,7 @@ export default function RootLayout({ children }) {
     url: 'https://www.verticalelevators.in',
     logo: 'https://www.verticalelevators.in/logo.png',
     description: 'Premium elevator installation, maintenance, and modernization services for residential and commercial buildings',
-    telephone: '+917419636357',
+    telephone: '+919990993646',
     email: 'info@verticalelevators.in',
     address: {
       '@type': 'PostalAddress',
