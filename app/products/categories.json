@@ -4,7 +4,7 @@
     "title": "Machine Room Lifts",
     "slug": "machine-room-lifts",
     "description": "Traditional traction elevators with dedicated machine room. Ideal for high-rise buildings requiring high speeds and heavy capacity.",
-    "image": "/products/1.webp",
+    "image": "/products/machine_room_lift.webp",
     "icon": "IconBuilding",
     "features": [
       "High-speed capability up to 2.0m/s",
@@ -21,7 +21,7 @@
     "title": "Machine Roomless Lifts",
     "slug": "machine-roomless-lifts",
     "description": "Space-saving gearless technology with compact design. Perfect for modern buildings where space optimization is essential.",
-    "image": "/products/1.webp",
+    "image": "/products/machine_roomless_lift.webp",
     "icon": "IconArrowsUpDown",
     "features": [
       "No machine room required",
@@ -39,7 +39,7 @@
     "title": "Hydraulic Lifts",
     "slug": "hydraulic-lifts",
     "description": "Smooth hydraulic operation with pitless design. Economical solution for low to mid-rise buildings up to 5 floors.",
-    "image": "/products/1.webp",
+    "image": "/products/hydraulic_lift.webp",
     "icon": "IconTool",
     "features": [
       "Smooth operation",
@@ -56,7 +56,7 @@
     "title": "Goods Lifts",
     "slug": "goods-lifts",
     "description": "Heavy-duty industrial elevators designed for material handling. Customizable capacity from 1 to 5 tons.",
-    "image": "/products/1.webp",
+    "image": "/products/goods_lift.webp",
     "icon": "IconPackage",
     "features": [
       "Heavy load capacity",
@@ -73,7 +73,7 @@
     "title": "Home Lifts",
     "slug": "home-lifts",
     "description": "Compact residential elevators for villas and homes. Single-phase power with elegant design options.",
-    "image": "/products/1.webp",
+    "image": "/products/home_lift.webp",
     "icon": "IconHomeElevator",
     "features": [
       "Single phase operation",
@@ -90,7 +90,7 @@
     "title": "Hospital Lifts",
     "slug": "hospital-lifts",
     "description": "Specialized stretcher elevators for healthcare facilities. Spacious design with smooth operation and safety features.",
-    "image": "/products/1.webp",
+    "image": "/products/hospital_lift.webp",
     "icon": "IconCertificate",
     "features": [
       "Stretcher compatible",
@@ -107,7 +107,7 @@
     "title": "Capsule Lifts",
     "slug": "capsule-lifts",
     "description": "Panoramic glass elevators as architectural highlights. Premium design for hotels, malls, and prestigious buildings.",
-    "image": "/products/1.webp",
+    "image": "/products/capsule_lift.webp",
     "icon": "IconUsers",
     "features": [
       "Glass panoramic view",
@@ -124,7 +124,7 @@
     "title": "Dumbwaiter Lifts",
     "slug": "dumbwaiter-lifts",
     "description": "Compact service elevators for transporting goods between floors. Ideal for restaurants, hotels, and hospitals.",
-    "image": "/products/1.webp",
+    "image": "/products/dumbwaiter_lift.webp",
     "icon": "IconPhone",
     "features": [
       "Compact footprint",
